@@ -1,0 +1,352 @@
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.open_sans{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.anton{
+    font-family: 'Anton', sans-serif;
+}
+
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: #112D4E;
+    color: #F9F7F7;
+    padding: 20px 0;
+}
+
+.header__in{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__logo{
+    padding: 5px 0;
+    font-size: 24px;
+}
+
+.header__btns{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.header_btn{
+    margin: 0 10px 0 0;
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color:#DBE2EF;
+    border-radius: 35px;
+    color: black;
+}
+
+.welcome{
+    background-image: url(/images/racing-track.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -120px;
+    height: 650px;
+}
+
+.welcome_box{
+    background-color: #112d4eda;
+    width: 450px;
+    height: 550px;
+    margin: -550px 0 0 200px;
+}
+
+.welcome_text{
+    color: #FAEDF0;
+}
+
+.welcome_text1{
+    font-size: 80px;
+    padding: 0 20px;
+}
+
+.welcome_text2{
+    font-size: 20px;
+    padding: 20px;
+}
+
+.info_line{
+    background-color: black;
+}
+
+.info_line__in{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 75px;
+}
+
+.section{
+    padding: 5px 20px;
+    color: white;
+    font-size: 16px;
+}
+
+
+/*--------------------Anti-Ugon Section---------------------------*/
+.anti__in{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.anti__box1{
+    width: 750px;
+    height: 600px;
+}
+
+.anti__box1__img{
+    background-image: url(/images/anti_ugon_bmw.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin: 30px 100px;
+}
+
+.anti__box2{
+    text-align: center;
+    width: 600px;
+}
+
+.anti__box2__box{
+    margin-top: 50px;
+    padding: 100px 0;
+}
+
+.anti__box2__header{
+    font-size: 46px;
+}
+
+.anti__box2__info{
+    font-size: 23px;
+}
+
+.anti__box2__btn{
+    margin: 0 0 0 24%;
+    padding: 14px 50px;
+    font-size: 19px;
+    background-color: #3F72AF;
+    width: 220px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    color: #FAEDF0;
+}
+
+/*----------------------News----------------------*/
+.news__box{
+    text-align: center;
+    background-color: #112D4E;
+    padding-bottom: 30px;
+}
+
+.news__sections{
+    display: flex;
+    padding: 100px 0 0 12%;
+}
+
+.news__section{
+    width: 200px;
+    height: 200px;
+    background-color: #3F72AF;
+    margin: 0 15px;
+    color: #F9F7F7;
+}
+
+.h1{
+    margin: 10px 0 20px 100px;
+    font-size: 34px;
+    text-transform: uppercase;
+}
+
+.h3{
+    margin: 40% 0 0 0;
+    text-transform: uppercase;
+}
+
+
+
+.news__btn{
+    background-color: #DBE2EF;
+    margin: 30px 0 0 615px;
+    padding: 10px 30px;
+    width: 220px;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+
+.news__section__1{
+    margin: 0 15px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/cls63.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: -60px;
+}
+
+.news__section__2{
+    margin: 0 15px;
+    width: 200px;
+    height: 200px;
+    background-image: url(/images/lambo.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+}
+
+/*----------------bortzhurnaly---------------------*/
+.bortzhurnaly__sections{
+    display: flex;
+}
+
+.bortzhurnaly__section{
+    width: 500px;
+    height: 250px;
+    background-color:#3F72AF;
+    margin: 10px 15px;
+    color: #F9F7F7;
+}
+
+.bortzhurnaly__box{
+    margin: 0 0 0 230px;
+}
+
+.bortzhurnaly__h{
+    margin-top: 40px;
+}
+
+.acsessuary{
+    background-image: url(/images/выхлоп.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -50px;
+}
+
+.pocupka{
+    background-image: url(/images/urus.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -250px;
+}
+
+.tuning{
+    background-image: url(/images/тюнинг.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -390px;
+}
+
+.to{
+    background-image: url(/images/camry.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.zapchasti{
+    background-image: url(/images/zapchasti.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.electronica{
+    background-image: url(/images/electronica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -60px;
+}
+
+.title{
+    margin: 150px 0 0 50px;
+}
+
+.p1{
+    margin-left: 350px;
+}
+
+/*-------------------Стоит прочитать-----------------*/
+.stoit-prochitat{
+    background-color: #112D4E;
+}
+.stoit-prochitat__box{
+    margin-left: 260px;
+    text-align: center;
+    width: 1000px;
+    padding-bottom: 30px;
+}
+
+.stoit-prochitat__sections{
+    display: flex;
+}
+
+.stoit-prochitat__section{
+    width: 300px;
+    height: 400px;
+    
+    margin: 10px 15px;
+    color: #F9F7F7;
+}
+
+.stoit-prochitat__title{
+    padding-top: 40px;
+    color: #F9F7F7;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.stoit-prochitat__btn{
+    background-color: #DBE2EF;
+    margin: 30px 0 0 355px;
+    padding: 10px 30px;
+    width: 220px;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+
+.stoit-prochitat__back1{
+    background-image: url(/images/ролс.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stoit-prochitat__back2{
+    background-image: url(/images/гелик.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stoit-prochitat__back3{
+    background-image: url(/images/бмв.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stoit-prochitat__text{
+    padding-top: 140px;
+    font-size: 20px;
+
+}
+
+
+/*----------Footer---------------*/
+.footer{
+    padding: 20px 0;
+}
+
+.footer__in{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14px;
+}
+
+h4{
+    margin: 4px;
+}
